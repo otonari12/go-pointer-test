@@ -1,8 +1,8 @@
 package main
 
-import "time"
-import "./vandp"
+import "github.com/otonari12/go-pointer-test/vandp"
+
+var I1i = &vandp.I1{}
 
 func main() {
-	vandp.Dummy = time.Now().Nanosecond() < 100
 }
